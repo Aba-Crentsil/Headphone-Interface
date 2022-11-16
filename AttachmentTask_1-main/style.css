@@ -1,0 +1,139 @@
+body{
+    margin: 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./images/background.jpg"); 
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#head-text{
+    top: 20%;
+    position: absolute;
+    left: 15%;
+}
+#big-text{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.button{
+    outline: 0;
+    border: 0;
+    background-color: white;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 25px;
+
+}
+.container{
+    margin: 50px 15%;
+}
+.caption{
+   font-size: 28px;
+}
+.yellow-div{
+    text-align: center;
+    height: 100px;
+    background-color: #FCCE34;
+}
+.yellow-div >p{
+    margin-top: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.b-item-img{
+    width: 100%;
+}
+.b-item-desc >h3{
+    color: #000;
+}
+.b-item-desc{
+    background-color: #FCCE34;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 12px;
+}
+.type{
+    position: absolute;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: gold;
+    margin: 20px;
+    font-size: 10px;  
+}
+
+.small-grid{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+}
+
+.small-grid-item{
+    flex: 22%;
+}
+
+.s-item-img{
+    width: 100%;
+}
+
+
+
+#foot{
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    background-color: #FCCE34;
+    color: white;
+    justify-content: center;
+}
+.foot-text p{
+    margin-top: 20px;
+    color-scheme: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .big-headphone-img {
+    height: 280px;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  
+.foot-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}   
+.foot-text >.button{
+    margin: 10px;
+}
+
+  
